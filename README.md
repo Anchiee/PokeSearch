@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-In this console app you are able to search info about a pokemon, pokemon move or a pokemon ability. Various stats will be shown upon searching a certain option
+In this console app you are able to search info about a pokemon, pokemon move or a pokemon ability. Various stats will be shown upon searching a certain option. I've used the CURL library to get the https responses and used the nlohmann/json library available on github in order to parse the responses into the json file and extract data from them
 <br />
 
 
