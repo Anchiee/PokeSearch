@@ -2,8 +2,8 @@
 
 
 <h2>Description</h2>
-In this console app you are able to search info about a pokemon, pokemon move or a pokemon ability. Various stats will be shown upon searching a certain option. I've used the CURL library to get the https responses and used the nlohmann/json library available on github in order to parse the responses into the json file and extract data from them
-<br />
+In this console app you are able to search info about a pokemon, pokemon move or a pokemon ability. Various stats will be shown upon searching a certain option
+<br/>
 
 
 <h2>Languages and IDE used</h2>
@@ -15,4 +15,20 @@ In this console app you are able to search info about a pokemon, pokemon move or
 
 - <b>Windows 11</b>
 
+<h2>Libraries Used</h2>
+
+- <b>CURL</b>
+- <b>Nlohmann/jsonn</b>
+
+  
 <h2>Program walk-through:</h2>
+
+<p>Main menu</p>
+<img src="https://i.imgur.com/6JwzpS0.png" width="60%" height="60%">
+
+
+<p>Menu after choosing a type</p>
+<img src="https://i.imgur.com/T76EIE3.png" width="60%" height="60%">
+
+<p>Response</p>
+<img src="https://i.imgur.com/COq9b0o.png" width="60%" height="60%">
