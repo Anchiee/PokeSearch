@@ -204,7 +204,7 @@ void inputMenu()
 void mainMenu()
 {
 	int input;
-	std::string responseData;
+	std::string responseData, endpointArgument;
 
 
 
@@ -223,7 +223,12 @@ void mainMenu()
 	switch (input)
 	{
 		case 1:			
-			inputMenu();
+			system("CLS");
+			std::cout << "Input:";
+			std::cin >> endpointArgument;
+
+			apiUrlEndpoint = "pokemon/" + endpointArgument + '/';
+			apiUrl = apiUrlMainBody + apiUrlEndpoint;
 
 			responseData = returnRequestResult(apiUrl);
 			data = extractResponseData(responseData);
@@ -239,7 +244,12 @@ void mainMenu()
 			break;
 
 		case 2:
-			inputMenu();
+			system("CLS");
+			std::cout << "Input:";
+			std::cin >> endpointArgument;
+
+			apiUrlEndpoint = "ability/" + endpointArgument + '/';
+			apiUrl = apiUrlMainBody + apiUrlEndpoint;
 
 			responseData = returnRequestResult(apiUrl);
 			data = extractResponseData(responseData);
@@ -255,7 +265,12 @@ void mainMenu()
 			break;
 
 		case 3:
-			inputMenu();
+			system("CLS");
+			std::cout << "Input:";
+			std::cin >> endpointArgument;
+
+			apiUrlEndpoint = "move/" + endpointArgument + '/';
+			apiUrl = apiUrlMainBody + apiUrlEndpoint;
 
 
 			responseData = returnRequestResult(apiUrl);
@@ -270,6 +285,7 @@ void mainMenu()
 			if (input == 1) mainMenu();
 			
 			break;
+
 
 		default:
 			std::cout << "Wrong! Try again\n";
