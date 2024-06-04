@@ -11,11 +11,11 @@ In this console app you are able to search info about a pokemon, pokemon move or
 - <b>C++</b>
 - <b>Visual Studio 2022</b>
 
-<h2>Environments Used </h2>
+<h2>Environments used </h2>
 
 - <b>Windows 11</b>
 
-<h2>Libraries Used</h2>
+<h2>Libraries and APIS used</h2>
 
 - <b>CURL</b>
 - <b>Nlohmann/jsonn</b>
