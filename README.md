@@ -9,16 +9,17 @@ In this console app you are able to search info about a pokemon, pokemon move or
 <h2>Languages and IDE used</h2>
 
 - <b>C++</b>
-- <b>Visual Studio 2022</b>
+- [Visual Studio 2022](https://visualstudio.microsoft.com/pl/downloads/)
 
 <h2>Environments used </h2>
 
 - <b>Windows 11</b>
 
-<h2>Libraries and APIS used</h2>
+<h2>Libraries and API used</h2>
 
-- <b>CURL</b>
-- <b>Nlohmann/jsonn</b>
+- [curl](https://curl.se)
+- [Nlohmann/json](https://github.com/nlohmann/json/tree/develop/include/nlohmann)
+- [PokeAPI](https://pokeapi.co/docs/v2)
 
   
 <h2>Program walk-through:</h2>
